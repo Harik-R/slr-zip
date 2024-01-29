@@ -40,5 +40,5 @@ export const MenuList = [
   },
   // { name: "Contact Us", link: "/", icon: "" },
   // { name: "Clients", link: "/", icon: "" },
-  // { name: "Get in Touch", link: "/", icon: "", margin: false },
+  // { name: "schedule a meeting", link: "/", icon: "", margin: false },
 ];
