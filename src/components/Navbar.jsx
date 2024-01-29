@@ -101,7 +101,7 @@ const Navbar = () => {
         </div>
 
         <div className="hidden md:flex justify-between items-center">
-          <Link href="/pages/get-in-touch" className="ml-6 hover:scale-105 ease-in duration-100 text-white items-start bg-[#152C4E] focus:ring-4 font-medium mb-2 capitalize dark:focus:ring-[#152C4E] px-6 py-2 text-[14px]">Get in touch</Link>
+          <Link href="/pages/get-in-touch" className="ml-6 hover:scale-105 ease-in duration-100 text-white items-start bg-[#152C4E] focus:ring-4 font-medium mb-2 capitalize dark:focus:ring-[#152C4E] px-6 py-2 text-[14px]">schedule a meeting</Link>
         </div>
 
       </div>
