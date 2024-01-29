@@ -31,7 +31,7 @@ const Main = ({ bannerBg, bgTitle, bgTitle1, bgTitle2, content, type, className,
                   </p>
                 </div>
 
-                {type && type == 1 &&
+{/*                 {type && type == 1 &&
                   <div className="hidden md:flex items-center justify-between md:mt-40 max-w-[330px] m-auto py-2 bg-white shadow md:ml-[80px]">
                     <Image src={AdvertiseLogo} className="object-cover md:h-20 h-20 md:w-32 md:rounded-none ml-2" alt='/' />
                     <div className="flex flex-col justify-between leading-normal">
@@ -40,7 +40,7 @@ const Main = ({ bannerBg, bgTitle, bgTitle1, bgTitle2, content, type, className,
                       <p className="mt-2 text-[12px] font-normal text-gray-700 dark:text-gray-400">Simplify and streamline your payroll Processes</p>
                     </div>
                   </div>
-                }
+                } */}
             </div>
 
            :"" }
