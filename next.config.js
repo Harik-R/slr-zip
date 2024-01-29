@@ -4,11 +4,11 @@ const nextConfig = {
   images: {
     unoptimized: true,
   }
-//   basePath: "",
-//   output: "standalone",
-//   experimental: {
-//   appDir: true,
-// },
+  basePath: "",
+  output: "standalone",
+  experimental: {
+  appDir: true,
+},
 };
 
 module.exports = nextConfig;
