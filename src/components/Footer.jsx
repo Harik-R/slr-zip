@@ -1,4 +1,5 @@
 "use client";
+"use client";
 import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image';
@@ -44,11 +45,11 @@ const Footer = () => {
                         <div className='md:mt-2'>
                             <div className='flex'>
                                 <MdAddLocationAlt />
-                                <p className='text-[12px] md:ml-1'>SLRI Solutions Pvt Ltd Hyderabad, India</p>
+                                <p className='text-[12px] md:ml-1'>Techno Trek Pvt Ltd Hyderabad, India</p>
                             </div>
                             <div className='flex md:mt-1'>
                                 <AiOutlineMail />
-                                <p className='text-[12px] md:ml-1'>sales.in@slris.com </p>
+                                <p className='text-[12px] md:ml-1'>sales.in@technotrek.com </p>
                             </div>
                         </div>
 
@@ -120,7 +121,7 @@ const Footer = () => {
                 </div>
 
                 <div className='flex flex-col max-w-[1240px] px-2 mb-2 mx-auto justify-between sm:flex-row text-center border-t-[1px] border-gray-400 text-gray-500'>
-                    <p className='py-4 text-[12px]'>&copy; Copyright 2020 SLRI Solutions, LLC. All Rights Reserved</p>
+                    <p className='py-4 text-[12px]'>&copy; Copyright 2024 Techno Treck, All Rights Reserved</p>
                     <div className='flex justify-between pt-4 text-[12px] gap-4'>
                         <p>Terms and Conditions </p>
                         <p>Privacy Policy </p>
