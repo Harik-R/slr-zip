@@ -5,8 +5,6 @@ const nextConfig = {
     unoptimized: true,
   }
     module.exports = {
-  basePath: "",
-  output: "standalone",
   experimental: {
   appDir: true,
 },
