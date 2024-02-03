@@ -11,15 +11,15 @@ const Contact = () => {
 
         <div className='grid lg:grid-cols-2 gap-8'>
           {/* left */}
+          <div className='md:max-w-[500px]'>
+            <h1 className="font-bold md:text-2xl text-2xl text-black text-left py-4">Discover why clients place their trust in our expertise and opt to forge meaningful partnerships with us through our Contact Us section.</h1>
+              </div>
 
-          <div className='md:max-w-[200px]'>
+          {/* <div className='md:max-w-[200px]'>
 
-            <h2 className='py-2 px-2 text-xl text-[#152C4E]'>In a rush? <br />
-              Get a call from our
-              industry experts
-            </h2>
+            <h2 className='py-2 px-2 text-xl text-[#152C4E]'>In a rush? Get a call from our industry experts</h2>
 
-          </div>
+          </div> */}
 
           {/* right */}
           <div className='col-span-1 w-full h-auto rounded-sm lg:p-4'>
