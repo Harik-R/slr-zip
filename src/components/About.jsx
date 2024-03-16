@@ -23,9 +23,10 @@ const About = () => {
           <button type="button" className="float-left hover:scale-105 ease-in duration-100 text-white bg-[#152C4E] focus:ring-4 font-medium mb-2 capitalize dark:focus:ring-[#152C4E] px-6 py-2 text-[14px]">Explore with a live demo</button>
         </div>
 
-        <div className='w-full h-auto -mt-20 m-auto flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
+        <div className='w-full h-auto -mt-20 m-auto flex items-center justify-center p-4 animate-scale-105'>
           <Image width={"1000"} height={"1000"} src={AboutImg} className='w-full' alt='/' />
         </div>
+
       </div>
     </div>
   );

@@ -69,3 +69,209 @@ html {
   }
 
 }
+
+@keyframes autoSlide {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+@-webkit-keyframes autoSlide {
+    0% {
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+    100% {
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+}
+
+.animate-auto-slide {
+    animation: autoSlide 5s linear infinite alternate;
+    -webkit-animation: autoSlide 5s linear infinite alternate;
+}
+
+@keyframes autoSlideRight {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@-webkit-keyframes autoSlideRight {
+    0% {
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+    100% {
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+}
+
+.animate-auto-slide-right {
+    animation: autoSlideRight 5s linear infinite alternate;
+    -webkit-animation: autoSlideRight 5s linear infinite alternate;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
+@-webkit-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+    60% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
+
+.animate-auto-bounce {
+    animation: bounce 1s ease infinite;
+    -webkit-animation: bounce 1s ease infinite;
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes scaleInCenter {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-50px);
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@-webkit-keyframes scaleInCenter {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.animate-fadeInLeft {
+    animation: fadeInLeft 5s ease infinite;
+    -webkit-animation: fadeInLeft 5s ease infinite;
+}
+
+.animate-scaleInCenter {
+    animation: scaleInCenter 5s ease infinite;
+    -webkit-animation: scaleInCenter 5s ease infinite;
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes scaleIn {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(50px);
+        transform: translateX(50px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@-webkit-keyframes scaleIn {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.animate-fadeInRight {
+    animation: fadeInRight 5s ease infinite;
+    -webkit-animation: fadeInRight 5s ease infinite;
+}
+
+.animate-scaleIn {
+    animation: scaleIn 5s ease infinite;
+    -webkit-animation: scaleIn 5s ease infinite;
+}
+
+@keyframes scale-105 {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.animate-scale-105 {
+    animation: scale-105 2s infinite;
+}

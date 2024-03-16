@@ -30,48 +30,44 @@ const ServiceComponent = () => {
                             </div>
                             <div className="-mx-4 grid grid-cols-3 px-4">
 
-                                <div className="w-full px-4">
-                                    <div className="mb-8 rounded-[20px] bg-white">
-                                        <div className="bg-primary mb-1 flex h-[70px] w-[70px] items-center justify-center rounded-2xl">
-
-                                            <Image width={"1000"} height={"1000"} src={"../assets/images/servicen1.png"} className='object-cover w-32' alt='/' />
-
+                                <div class="w-full px-4">
+                                    <div class="mb-8 rounded-[20px] bg-white relative overflow-hidden">
+                                        <div class="bg-primary mb-1 flex h-[70px] w-[70px] items-center justify-center rounded-2xl animate-auto-slide">
+                                            <img src="../assets/images/servicen1.png" class="object-cover w-32" alt="/" />
                                         </div>
-                                        <h4 className="text-dark mb-3 text-sm font-semibold">
+                                        <h4 class="text-dark mb-3 text-sm font-semibold">
                                             Software Development
                                         </h4>
-                                        <p className="text-body-color text-xs">
+                                        <p class="text-body-color text-xs">
                                             Custom software solutions for seamless business operations.
                                         </p>
-                                        <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                                        <div class="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
                                         </div>
                                     </div>
                                 </div>
 
-                                <div className="w-full px-4">
-                                    <div className="mb-8 rounded-[20px] bg-white">
-                                        <div className="bg-primary mb-1 flex h-[70px] w-[70px] items-center justify-center rounded-2xl">
 
-                                            <Image width={"1000"} height={"1000"} src={"../assets/images/servicen2.png"} className='object-cover w-32' alt='/' />
-
+                                <div class="w-full px-4">
+                                    <div class="mb-8 rounded-[20px] bg-white relative overflow-hidden">
+                                        <div class="bg-primary mb-1 flex h-[70px] w-[70px] items-center justify-center rounded-2xl animate-auto-slide-right">
+                                            <img src="../assets/images/servicen2.png" class="object-cover w-32" alt="/" />
                                         </div>
-                                        <h4 className="text-dark mb-3 text-sm font-semibold">
+                                        <h4 class="text-dark mb-3 text-sm font-semibold">
                                             Web Development
                                         </h4>
-                                        <p className="text-body-color text-xs">
+                                        <p class="text-body-color text-xs">
                                             Crafting captivating and functional websites tailored to your brand.
                                         </p>
-                                        <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                                        <div class="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
                                         </div>
                                     </div>
                                 </div>
 
+
                                 <div className="w-full px-4">
-                                    <div className="mb-8 rounded-[20px] bg-white">
-                                        <div className="bg-primary mb-1 flex h-[70px] w-[70px] items-center justify-center rounded-2xl">
-
+                                    <div class="mb-8 rounded-[20px] bg-white relative overflow-hidden">
+                                        <div class="bg-primary mb-1 flex h-[70px] w-[70px] items-center justify-center rounded-2xl animate-auto-slide">
                                             <Image width={"1000"} height={"1000"} src={"../assets/images/servicen3n.png"} className='object-cover w-32' alt='/' />
-
                                         </div>
                                         <h4 className="text-dark mb-3 text-sm font-semibold">Mobile App Development</h4>
                                         <p className="text-body-color text-xs">
@@ -82,28 +78,27 @@ const ServiceComponent = () => {
                                     </div>
                                 </div>
 
-                                <div className="w-full px-4">
-                                    <div className="mb-8 rounded-[20px] bg-white">
-                                        <div className="bg-primary mb-1 flex h-[70px] w-[70px] items-center justify-center rounded-2xl">
-
-                                            <Image width={"1000"} height={"1000"} src={"../assets/images/servicen3.png"} className='object-cover w-32' alt='/' />
-
+                                <div class="w-full px-4">
+                                    <div class="mb-8 rounded-[20px] bg-white relative overflow-hidden animate-auto-bounce">
+                                        <div class="bg-primary mb-1 flex h-[70px] w-[70px] items-center justify-center rounded-2xl">
+                                            <img src="../assets/images/servicen3.png" class="object-cover w-32" alt="/" />
                                         </div>
-                                        <h4 className="text-dark mb-3 text-sm font-semibold">IT Staffing</h4>
-                                        <p className="text-body-color text-xs">
+                                        <h4 class="text-dark mb-3 text-sm font-semibold">
+                                            IT Staffing
+                                        </h4>
+                                        <p class="text-body-color text-xs">
                                             Crafting captivating and functional websites tailored to your brand.
                                         </p>
-                                        <div className="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
+                                        <div class="w-1/6 border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-2">
                                         </div>
                                     </div>
                                 </div>
 
+
                                 <div className="w-full px-4">
-                                    <div className="mb-8 rounded-[20px] bg-white">
+                                    <div class="mb-8 rounded-[20px] bg-white relative overflow-hidden animate-auto-bounce">
                                         <div className="bg-primary mb-1 flex h-[70px] w-[70px] items-center justify-center rounded-2xl">
-
                                             <Image width={"1000"} height={"1000"} src={"../assets/images/servicen5.png"} className='object-cover w-32' alt='/' />
-
                                         </div>
                                         <h4 className="text-dark mb-3 text-sm font-semibold">
                                             SAP Payroll Management Tool
@@ -117,11 +112,9 @@ const ServiceComponent = () => {
                                 </div>
 
                                 <div className="w-full px-4">
-                                    <div className="mb-8 rounded-[20px] bg-white">
+                                    <div class="mb-8 rounded-[20px] bg-white relative overflow-hidden animate-auto-bounce">
                                         <div className="bg-primary mb-1 flex h-[70px] w-[70px] items-center justify-center rounded-2xl">
-
                                             <Image width={"1000"} height={"1000"} src={"../assets/images/servicen6.png"} className='object-cover w-32' alt='/' />
-
                                         </div>
                                         <h4 className="text-dark mb-3 text-sm font-semibold">Digital Marketing Services</h4>
                                         <p className="text-body-color text-xs">
@@ -139,7 +132,7 @@ const ServiceComponent = () => {
 
                 </div>
                 <div className='hidden md:block'>
-            {/* <div className='mx-auto md:max-w-6xl md:w-full container mt-10'>
+                    {/* <div className='mx-auto md:max-w-6xl md:w-full container mt-10'>
                <div className='md:grid grid-cols-2 md:my-20'>
                   <div className="rounded-lg">
                      <Image width={"1000"} height={"1000"} src={"/assets/images/sapsolution-circule.png"} className='' alt='slris' />
@@ -162,48 +155,42 @@ const ServiceComponent = () => {
                </div>
             </div> */}
 
-            <div className='mx-auto md:max-w-6xl md:w-full container'>
-               <div className='md:grid grid-cols-2 md:my-10'>
+                    <div className='mx-auto md:max-w-6xl md:w-full container'>
+                        <div className='md:grid grid-cols-2 md:my-10'>
+                            <div className='mb-8 px-12 animate-fadeInLeft infinite'>
+                                <div className='content-start md:mt-4'>
+                                    <h2 className="font-bold md:text-2xl text-2xl text-black text-left py-4">{"IT Consulting Services"}</h2>
+                                    <p className='md:py-2 py-2 text-gray-600 text-justify md:text-sm'>
+                                        {`Great Businesses set the vision for a better future and the right innovation partner will get you there. We are the experts in Technology and can collaborate with your business experts to develop a successful project plan. We help build the roadmap out a Business Strategy by analyzing their current state of IT, present IT trends, and help make decisions regarding their Technology needs and decision making. We will be available 24/7 if you want to try us to make that difference.`}
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="rounded-lg animate-scaleInCenter infinite">
+                                <Image width={"1000"} height={"1000"} src={"/assets/images/consultant.jpg"} className='' alt='slris' />
+                            </div>
+                        </div>
+                    </div>
 
-                  <div className='mb-8 px-12'>
-                     <div className='content-start md:mt-4'>
-                        <h2 className="font-bold md:text-2xl text-2xl text-black text-left py-4">{"IT Consulting Services"}</h2>
-                        <p className='md:py-2 py-2 text-gray-600 text-justify md:text-sm'>
-                           {`Great Businesses set the vision for a better future and the right innovation partner will get you there. We are the experts in Technology and can collaborate with your business experts to develop a successful project plan. We help build the roadmap out a Business Strategy by analyzing their current state of IT, present IT trends, and help make decisions regarding their Technology needs and decision making. We will be available 24/7 if you want to try us to make that difference.`}
-                        </p>
-                     </div>
-                  </div>
 
-                  <div className="rounded-lg">
-                     <Image width={"1000"} height={"1000"} src={"/assets/images/consultant.jpg"} className='' alt='slris' />
-                  </div>
+                    <div className='mx-auto md:max-w-6xl md:w-full container mt-10'>
+                        <div className='md:grid grid-cols-2 md:my-20'>
 
-               </div>
-            </div>
+                            <div className="rounded-lg flex justify-center animate-scaleIn infinite">
+                                <Image width={"1000"} height={"1000"} src={"/assets/images/stremming.png"} className='md:w-[400px]' alt='slris' />
+                            </div>
 
-            <div className='mx-auto md:max-w-6xl md:w-full container mt-10'>
-               <div className='md:grid grid-cols-2 md:my-20'>
+                            <div className='mb-8 px-12 animate-fadeInRight infinite'>
+                                <div className='content-start md:mt-4'>
+                                    <h2 className="font-bold md:text-2xl text-2xl text-black text-left py-4 mt-10">{"Streamline School Management with Techno Trek Edumatic"}</h2>
+                                    <p className='md:py-2 py-2 text-gray-600 text-justify md:text-sm'>
+                                        {`Discover Techno Trek Edumatic's comprehensive suite of education management solutions, designed to enhance school operations and elevate the learning experience. Our Learning Management System (LMS) introduces interactivity and engagement to education, while our robust Assessment tools provide real-time insights into student performance, empowering informed decision-making.`}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-                  <div className="rounded-lg flex justify-center">
-                     <Image width={"1000"} height={"1000"} src={"/assets/images/stremming.png"} className='md:w-[400px]' alt='slris' />
-                  </div>
-
-                  <div className='mb-8 px-12'>
-                     <div className='content-start md:mt-4'>
-                        <h2 className="font-bold md:text-2xl text-2xl text-black text-left py-4 mt-10">{"Streamline School Management with Techno Trek Edumatic"}</h2>
-                        <p className='md:py-2 py-2 text-gray-600 text-justify md:text-sm'>
-                           {`Discover Techno Trek Edumatic's comprehensive suite of education management solutions,
-designed to enhance school operations and elevate the learning experience. Our Learning
-Management System (LMS) introduces interactivity and engagement to education, while our
-robust Assessment tools provide real-time insights into student performance, empowering
-informed decision-making.`}
-                        </p>
-                     </div>
-                  </div>
-
-               </div>
-            </div>
-         </div>
+                </div>
             </section>
         </>
     )
